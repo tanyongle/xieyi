@@ -1,0 +1,34 @@
+包命名：
+后台包结构:{com,self}(com:商业项目,self:私人项目).coke(项目英文名).*；
+web:后台Controller层;
+service:后台service层;
+mapper:后台mapper层;
+resource/mapper:mapper接口的实现;
+
+文件命名规则:功能名+逻辑层名称 如LoginController:表示是登陆功能的Controller;
+
+变量命名规则:类型_作用 (如str_userName:用户名类型是String),私有变量前加下划线 "_";
+
+函数命名使用驼峰式;
+
+前后台交互需要编写协议xml文件文件,方便前后台分离,内容如下:
+<jsons>
+  <json url="/userInfo/getUserInfoByName" desc="根据用户名获取用户信息">
+	<request>
+	  <item name="name" type="string" defaultValue=""/>
+	</request>
+	<response type="HashMap<String,Object>">
+	    <item name ="status" type="String"></item>
+	    <itmes type="List<HashMap<String,object>>">
+	    	<item name="id" type="int" desc"用户名"></item>
+		<item name="name" type="string" desc"用户名"></item>
+	    </itmes>
+	</response>
+  </json>
+</jsons>
+
+上面的一个<json>标签的意义是:
+请求的时候传给后台的的是一个名为name的String变量;
+要求返回一个哈希表形式如下:
+{status:"success",data:[{id:1,name:'张三'},{id:2,name:'李四'}]}
+
