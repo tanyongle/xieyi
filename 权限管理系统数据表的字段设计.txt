@@ -1,0 +1,55 @@
+action表:action表中记录着系统中所有的动作，以及动作相关描述。
+
+    字段名称/数据类型/说明
+    actionid/自动编号/自增长ID
+    actionname/文本/动作名称  
+    actioncolumnid/数字/动作分栏号（映射到actioncolumn）
+    action/文本/动作字符串
+    viewmode/文本/是否可见
+
+actioncolumn表：actioncolumn表中记录着动作的分栏，系统运行时，左侧菜单栏提供了几块不同的功能，每一块就是一个分栏，每添加一个分栏，该表中的记录就会增加一条,相对应的，左侧菜单栏中也会新增机一个栏。
+
+    字段名称/数据类型/说明
+    actioncolumnid/数字/自增长ID
+    actioncolumnname/文本/动作分栏名称
+
+actiongroup表：actiongroup表记录着动作所在的组。
+    字段名称/数据类型/说明
+    id/数字/自增长ID
+    actionid/数字/动作名称（映射到actionb表）
+    groupid/数字/动作所属组的ID
+    masterid/数字/创建者ID
+    mastername/文本/创建者名称
+    createdate/日期\时间/创建时间
+
+groupmanager表：groupmanager表记录着管理组的相关信息，每添加一个管理组，这里的记录就会增加一条。
+    字段名称/数据类型/说明
+    groupid/数字/自增长ID
+    groupname/文本/管理组名称
+    groupinfo/文本/管理组信息
+    masterid/数字/创建者ID
+    mastername/文本/创建者名称
+    createdate/日期\时间/创建时间
+
+master表：master表记录着所有管理员的信息，每添加一个管理员，该表就会增加一条记录。
+    字段名称/数据类型/说明
+    id/数组/自增长ID
+    name/文本/管理员名称
+    password/文本/管理员密码
+    bdate//日期\时间/创建时间
+    truename/文本/真实姓名
+    sex/文本/性别
+    birthday/日期\时间/生日
+    dept/文本/所属部门
+    position/文本/职务
+    position_desc/文本/职务说明
+    office_phone/数字/办公室电话
+    mobile/数字/手机
+    home_phone/数字/家庭电话
+    email/文本/邮件 
+    masterid/数字/创建者ID
+    mastername/文本/创建者名称
+    createdate/日期\时间/创建时间
+
+
+
