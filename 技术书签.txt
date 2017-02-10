@@ -1,0 +1,26 @@
+﻿1. 菜鸟教程:http://www.runoob.com/
+2. 使用IntelliJ IDEA 15和Maven创建Java Web项目：http://blog.csdn.net/myarrow/article/details/50824793
+3. spring技术文档：http://docs.spring.io/spring/docs/5.0.0.M3/spring-framework-reference/htmlsingle/#spring-introduction
+4. 手把手教你整合最优雅SSM框架：SpringMVC + Spring + MyBatis ：https://github.com/liyifeng1994/ssm
+5. Android Studio教程从入门到精通： http://www.open-open.com/lib/view/open1433387390635.html
+6. spring-security：http://docs.spring.io/spring-security/site/docs/4.2.0.RELEASE/reference/htmlsingle/
+7. maven库： http://mvnrepository.com/
+8. goratchet ： http://goratchet.com/
+9. React :http://reactnative.cn/docs/0.39/getting-started.html#content
+10. React Native 文档：http://reactnative.cn/docs/0.39/getting-started.html#content
+11. git 入门：http://backlogtool.com/git-guide/cn/intro/intro1_1.html
+12. Android开发之自动登录功能的实现：http://blog.csdn.net/gerogelin/article/details/35219377
+13. SpringMVC中使用Jcaptcha实现校验码验证:http://www.tuicool.com/articles/rMzAFj
+14. dubbo用户指南：http://dubbo.io/User+Guide-zh.htm
+15. 深入学习微框架：Spring Boot: http://www.infoq.com/cn/articles/microframeworks1-spring-boot/.
+16.基于SpringBoot + Mybatis实现SpringMVC Web项目:http://7player.cn/2015/08/30/%E3%80%90%E5%8E%9F%E5%88%9B%E3%80%91%E5%9F%BA%E4%BA%8Espringboot-mybatis%E5%AE%9E%E7%8E%B0springmvc-web%E9%A1%B9%E7%9B%AE/#2.Maven配置
+17. 开放源码,基于springMVC+springSecurity3.x+Mybaits3.x的权限系统,,支持开源:https://github.com/lanyuancom/lanyuan
+18.系统权限管理设计:http://blog.csdn.net/chexlong/article/details/37697555
+19.spring boot + mybatis 完整配置过程+mybatis 体会:http://www.jianshu.com/p/69b9fbb97574
+20. webrtc: https://webrtc.org/
+21: frozenui: http://frozenui.github.io/
+22. weui:https://github.com/weui/weui
+23: awesomes前端框架推荐: https://www.awesomes.cn/repos/Mobile/Frameworks
+24. 教你轻松画好风景速写：https://sanwen8.cn/p/3a3cS8p.html.
+25. fontawesome：http://www.fontawesome.com.cn/get-started/
+26. 轻小说文库APP(Wenku8)开源:https://github.com/MewX/light-novel-library_Wenku8_Android
