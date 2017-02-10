@@ -24,3 +24,4 @@
 24. 教你轻松画好风景速写：https://sanwen8.cn/p/3a3cS8p.html.
 25. fontawesome：http://www.fontawesome.com.cn/get-started/
 26. 轻小说文库APP(Wenku8)开源:https://github.com/MewX/light-novel-library_Wenku8_Android
+27. 权限系统数据库设计：http://www.cnblogs.com/sailormoon/archive/2012/12/12/2815253.html
